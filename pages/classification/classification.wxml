@@ -1,0 +1,20 @@
+<view class="content">
+  <view class="left">
+    <scroll-view class="leftcontent" scroll-y="ture">
+      <view class="item" bind:tap="click" wx:for="{{product}}" wx:key="title" data-index="{{index}}">{{index}}</view>
+    </scroll-view>
+  </view>
+  <scroll-view class="asncl" scroll-y="true">
+    <view class="zhuangtai"><image src="../../image/菜品.png" ></image>
+      <view class="ziti"> {{date}}</view></view>
+  <view class="allright">
+  
+    <view class="right" wx:for="{{list}}" wx:key="itemid">
+      <navigator url='../indexDetail/indexDetail?itemid={{item.id}}'>
+        <image src="{{item.image1}}" ></image>
+        <view class="name">{{item.name}}</view>
+      </navigator>
+   </view>
+  </view>
+</scroll-view>
+</view >

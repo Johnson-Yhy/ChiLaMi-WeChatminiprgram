@@ -1,0 +1,20 @@
+<!--pages/collect/collect.wxml-->
+<view class='list'>
+
+<view class="item" wx:for='{{list}}' wx:key="index" >
+    <navigator url='../indexDetail/indexDetail?itemid={{item.id}}'>
+      <view class='hezi'>
+      <view class='img'>
+       <image src="{{item.image1}}"></image>
+    </view>
+ <view class='info'>
+      <view class='dianpu'>{{item.name}}</view>
+      <view class='miaoshu'>电话:{{item.telephone}}</view>
+      <view class='miaoshu'>营业时间:{{item.business}}</view>
+      <view class='dizhi'>地址:{{item.address}}</view>
+  </view>
+    </view>
+    </navigator>
+</view>
+
+</view>

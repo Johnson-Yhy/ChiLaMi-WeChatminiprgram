@@ -1,0 +1,52 @@
+<view class="fudong">
+  <!--轮播图-->
+<view class="banner">
+  <swiper autoplay="true" interval="3000" circular="true">
+    <swiper-item wx:for="{{list}}" wx:key='index1'>
+      <navigator url='../indexDetail/indexDetail?itemid={{item.id}}'>
+      <image src="{{item.image1}}"></image>
+      <view class='desc'>{{item.name}}</view>
+      </navigator>
+    </swiper-item>
+  </swiper>
+</view>
+
+<!-- 店铺推荐 -->
+<view class="konjian">   </view>
+<view class="comm">------店铺推荐------</view>
+
+<view class='product-type'>
+
+  <view class='product1' wx:for='{{caidan}}' wx:key="index">
+    <navigator url='../indexDetail/indexDetail?itemid={{item.id}}'>
+    <image src='{{item.image1}}'></image>
+    <view class='name'>{{item.name}}</view>
+    </navigator>
+  </view>
+</view>
+
+<view class="konjian">   </view>
+<view class="comm">------猜你喜欢------</view>
+</view>
+<scroll-view scroll-y="true" class="huadong">
+  
+<!-- 猜你喜欢 -->
+<view class='list'>
+
+<view class="item" wx:for='{{prouduct}}' wx:key="index" >
+    <navigator url='../indexDetail/indexDetail?itemid={{item.id}}'>
+      <view class='hezi'>
+      <view class='img'>
+       <image src="{{item.image1}}"></image>
+    </view>
+ <view class='info'>
+      <view class='dianpu'>{{item.name}}</view>
+      <view class='miaoshu'>电话:{{item.telephone}}</view>
+      <view class='miaoshu'>营业时间:{{item.business}}</view>
+      <view class='dizhi'>地址:{{item.address}}</view>
+  </view>
+    </view>
+    </navigator>
+</view>
+</view>
+</scroll-view>

@@ -1,0 +1,10 @@
+/* pages/jieshao/jieshao.wxss */
+page{
+  background-color:#f4a460;
+}
+.jie{
+  margin-top: 100rpx;
+  margin-left: 80rpx;
+  width: 80%;
+  height: 80%;
+}

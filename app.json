@@ -1,0 +1,63 @@
+{
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#ffffff",
+    "borderStyle": "black",
+    "backgroundColor": "#f1d7c4",
+    "list": [
+      {
+        "pagePath": "pages/recommend/recommend",
+        "text": "推荐",
+        "iconPath": "/image/首页.png",
+        "selectedIconPath": "/image/首页 (1).png"
+      },
+      {
+        "pagePath": "pages/classification/classification",
+        "text": "分类",
+        "iconPath": "/image/分类.png",
+        "selectedIconPath": "/image/分类 (1).png"
+      },
+      {
+        "pagePath": "pages/random/random",
+        "text": "随机",
+        "iconPath": "/image/微信摇一摇_icon.png",
+        "selectedIconPath": "/image/微信摇一摇_icon (1).png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "消息",
+        "iconPath": "/image/消息 (2).png",
+        "selectedIconPath": "/image/消息 (3).png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "/image/我的.png",
+        "selectedIconPath": "/image/我的 (1).png"
+      }
+    ]
+  },
+  "pages": [
+    "pages/recommend/recommend",
+    "pages/classification/classification",
+    "pages/random/random",
+    "pages/news/news",
+    "pages/me/me",
+    "pages/collect/collect",
+    "pages/indexDetail/indexDetail",
+    "pages/pays/pays",
+    "pages/buys/buys",
+    "pages/jieshao/jieshao",
+    "pages/fankui/fankui"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#4d768c",
+    "navigationBarTitleText": "吃啦咪",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#424242",
+    "onReachBottomDistance": 50
+  },
+  "sitemapLocation": "sitemap.json"
+}

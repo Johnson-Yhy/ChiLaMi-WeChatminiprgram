@@ -1,0 +1,87 @@
+page{
+  background-color: #eee7e7;
+}
+.content{
+  display: flex;
+  height:1400rpx;
+}
+.left{
+  width: 25%;
+  height: 1400rpx;
+  border-right:3rpx solid #0e0d0d;
+}
+.right{
+  background-color: #ffffff;
+  flex-grow: 1;
+  margin:4rpx;
+  text-align: center;
+  width: 40%;
+  height: 250rpx;
+  font-size: small;
+  justify-content: space-between;
+}
+.asncl{
+  height: 100%;
+
+}
+.item{
+  height: 70rpx;
+  background-color:#F1DECF;
+  margin-bottom: 8rpx;
+  border-radius: 10rpx;
+  padding: 10rpx 10rpx;
+  line-height: 80rpx;
+  font-size: 35rpx;
+  font-weight: 700;
+  text-align: center;
+}
+.right image{
+  margin-top: 10rpx;
+  height: 180rpx;
+  width: 250rpx;
+  border-radius: 10rpx;
+}
+.right .name{
+  text-align: center;
+  padding: 3rpx;
+}
+.allright{
+  display:flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 730rpx;
+  justify-content: space-between;
+}
+.scrool{
+  background-color: #ffffff;
+  flex-grow: 1;
+  display: flex;
+  margin:5rpx;
+  text-align: center;
+  width: 40%;
+  height: 250rpx;
+  font-size: small;
+  justify-content: space-between;
+}
+.zhuangtai{
+  width: 100%;
+  display: flex;
+  height: 60rpx;
+  background-color: #f1d7c4;
+}
+.zhuangtai image{
+  height: 55rpx;
+  width: 55rpx;
+  padding: 10 60rpx;
+  margin-left: 20rpx;
+}
+.ziti{
+  height: 60rpx;
+  width: 100rpx;
+  margin-left: 20rpx;
+  font-size: small;
+  display: flex;
+  font-weight: 550;
+  flex-direction: column;
+  justify-content: center; 
+}

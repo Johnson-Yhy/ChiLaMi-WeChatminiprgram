@@ -1,0 +1,18 @@
+/* pages/news/news.wxss */
+.news{
+  height: 90rpx;
+  width: 100%;
+  display: flex;
+  border-bottom:2px solid black
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+.news image{
+  height: 70rpx;
+  width: 70rpx;
+  margin-top: 5rpx;
+  padding: 0 20rpx;
+}

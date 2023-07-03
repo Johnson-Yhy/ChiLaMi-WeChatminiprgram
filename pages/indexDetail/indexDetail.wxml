@@ -1,0 +1,71 @@
+<view class="kongjian"></view>
+<view class="index-wrapper">
+  <view class="zhenti">
+
+      <view class='list'>
+        <view class="title">{{name}}</view>
+        <image src='{{image1}}' class='img'></image>
+        <view class="kongjian"></view>
+        <view>-------------------------------------------</view>
+        <view class="dianhua">
+        <text style="color:chocolate;">*</text>电话：{{telephone}}
+        <image src="/image/电话_填充.png" bindtap="call"></image>
+        </view>
+        <view class="word">
+          <text style="color:chocolate;">*</text>营业时间：{{business}}</view>
+        <view class="dianhua">
+          <text style="color:chocolate;">*</text>地址：{{address}}
+          <image src="/image/定位.png" bindtap="location"></image>
+          </view>
+  </view>
+</view>
+</view>
+<view class="ziti">
+<view>
+  <text style="color:chocolate;">●</text>推荐菜品</view>
+</view>
+
+<view class="kuangjia">
+  <scroll-view class="tuijian" scroll-y="true">
+    <view class="caipin" wx:for="{{list}}" wx:key="index" >
+      <image class="tupian" src='{{item.tuiimg}}'></image>
+      <view class="dange">
+       <view class="mz">
+        <view class="pricename">{{item.pricename}}
+        <text style="color: #999999;">></text>
+        </view>
+        <view class="fengshu">
+          <image src="../../image/评分.png" class="pingfeng"></image>
+          <view class="fzhi">{{item.score}}</view>
+        </view>
+       </view>
+        <view class="price">{{item.price}}</view>
+        <view class="miaoshu">{{item.description}}</view>
+      </view>
+    </view>
+  </scroll-view>
+</view>
+<view class="zitao"><text style="color:chocolate;">●</text>店铺环境</view>
+
+<view class="huanjin">
+  <view wx:for="{{huan}}" class="jing" wx:key="index">
+    <image src="{{item.jinimg}}"></image>
+  </view>
+</view>
+
+
+<view class='bottom'>
+  <block>
+    <image bindtap='click'class="save" src="{{isClick?'/image/collect (2).png' : '/image/collect(1).png'}}" ></image>
+  </block>
+  <!-- <button class="buy" style="width:165rpx" size="mini" type="warn">订购
+  </button> -->
+  <view class="buy" bindtap="modalinput">订购</view>
+</view>
+
+
+<modal hidden="{{hiddenmodalput}}"  confirm-text="确认支付" cancel-text="我再想想"  bindcancel="modalinput" bindconfirm="confirm"  class="class">
+    <view class="quanbu">
+     <view class="wenzi">请认真核对您的用餐时间及地点，以确保您能拥有更好的用餐体验</view>
+    </view>
+</modal>

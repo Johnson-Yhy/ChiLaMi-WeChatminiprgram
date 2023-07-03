@@ -1,0 +1,41 @@
+page{
+  background-color:#f4a460;
+}
+.list{
+  padding:0 20rpx;
+}
+.item{
+  border-bottom: 2rpx solid #767676;
+  position: relative;
+}
+.img image{
+  width:210rpx;
+  height:130rpx;
+  margin-top: 20rpx;
+  border-radius: 10rpx;
+  border: 3rpx solid #767676;
+}
+.info{
+  padding-left: 25rpx;
+  color:black;
+  font-size:26rpx;
+}
+.dianpu{
+  margin-top: 20rpx;
+  color:red;
+  font-weight: bolder;
+  margin-bottom: 10rpx;
+}
+.miaoshu{
+  font-size: 16rpx;
+  font-weight: 600;
+  margin-bottom: 10rpx;
+}
+.dizhi{
+  font-size: 23rpx;
+  font-weight: 900;
+  margin-bottom: 10rpx;
+}
+.hezi{
+  display: flex;
+}

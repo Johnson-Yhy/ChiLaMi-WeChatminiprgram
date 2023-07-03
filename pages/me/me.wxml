@@ -1,0 +1,77 @@
+<!-- 登录 -->
+<view class="helo" style="background-image: url('../../image/Peek.svg');background-size:760rpx ;background-position:bottom; "></view>
+<view class="nav">
+<button wx:if="{{isShow}}" class="edit" bindtap="modalinput">
+     <text>点击授权登录</text>
+</button>
+
+<view class="userinfo" wx:else>
+      <view class="img"><image src="{{avatarUrl}}"></image></view>
+      <view class="hee">{{nickName}}</view>
+
+</view>
+</view>
+
+<view class="gongneng">
+    <view class="shixian">
+      <navigator url='../collect/collect'>
+      <image src='../../image/收藏夹.png' style="width: 100rpx;height: 100rpx;"></image>
+      <text>收藏</text>
+      </navigator>
+    </view>
+    <view class="shixian">
+      <navigator url='../buys/buys'>
+      <image src="../../image/支付.png"></image>
+      <text>已支付</text>
+      </navigator>
+    </view>
+    <view class="shixian">
+      <navigator url='../pays/pays'>
+      <image src='../../image/未支付.png' style="width: 100rpx;height: 100rpx;"></image>
+      <text>未支付</text>
+      </navigator>
+    </view>
+</view>
+
+<view class="setting">
+  <text style="margin-left: 20rpx;">设置</text>
+</view>
+<view class="jieshao">
+  <navigator url='../jieshao/jieshao' class="jieshao">
+  <view class="hezi">关于我们      ></view></navigator>
+  <navigator url='../fankui/fankui' class="jieshao">
+  <view class="hezi">意见反馈      ></view></navigator>
+  <view class="jieshao">
+  <view class="hezi" bindtap="tuichu">退出登录      ></view>
+</view>
+</view>
+
+
+
+
+
+
+
+<!-- 点击登录 -->
+<modal hidden="{{hiddenmodalput}}"  confirm-text="提交" cancel-text="取消" bindcancel="modalinput" bindconfirm="confirm">
+    <view class="zhengti">
+      <image class="images" src="https://p8.itc.cn/images01/20220307/2573e6e1d4324453b1717a296cd4f4bc.gif"></image>
+      <view class="ziti">为了您更好的体验，邀请您补全个人信息</view>
+      <view class="huoqu">
+        <view class="shuru">
+          <view class="touxiang">
+            <view class="text">头像：</view>
+            <button class="avatar-wrapper"open-type="chooseAvatar"bind:chooseavatar="onChooseAvatar">
+              <image class="avatar" src="{{avatarUrl}}"></image>
+            </button>
+          </view>
+        </view>
+        <view class="nichengs">
+          <view class="mzi">昵称:</view>
+          <view class="nicheng">
+            <input type="nickname" model:value="{{nickName}}" class="weui-input" placeholder="请输入昵称"/>
+          </view>
+        </view>
+      </view>
+    </view>
+</modal>

@@ -1,0 +1,17 @@
+<view class="zhengti" style="background-image: url('https://tenfei02.cfp.cn/creative/vcg/veer/1600water/veer-433779236.jpg');background-size:contain">
+  <view>
+  <view class="list">
+    <view wx:for="{{list}}" wx:for-index="index" wx:key="index" class="biankuang">
+      <image src='{{item.image1}}' ></image>
+      <navigator url='../indexDetail/indexDetail?itemid={{item.id}}'>
+      <view class="yaoyao">{{item.name}}</view>
+      <view class='wanchen'>{{item.title}}</view>
+    </navigator>
+    </view>
+  </view>
+    
+    <view wx:if="{{list==null || list==''}}">
+      <view class='yao'>拿起手机摇一摇</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,5 @@
+<view class="news">
+<image src="../../image/消息 (1).png" ></image>
+      <text class="text">消息</text>
+</view>
+

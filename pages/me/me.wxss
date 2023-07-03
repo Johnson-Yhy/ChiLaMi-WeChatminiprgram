@@ -1,0 +1,143 @@
+
+.zhengti{
+  width: 100%;
+  height: 500rpx;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.touxiang{
+  width: 100%;
+  display: flex;
+  height: 70%;
+}
+.avatar{
+  width: 100rpx;
+  height: 100rpx;
+}
+.ziti{
+  font-size: small;
+  color:#244aa3;
+  margin-top: 60rpx;
+}
+.nicheng{
+  width: 60%;
+  height:20%;
+  margin-left: 70rpx;
+  display: flex;
+}
+.avatar-wrapper{
+  width: 90%;
+  height: 200rpx;
+}
+.shuru{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  height: 70%;
+  width: 80%;
+}
+.text{
+  font-size: medium;
+  margin-top: 20rpx;
+  width: 40%;
+}
+.nichengs{
+  display: flex;
+  width: 80%;
+}
+.images{
+  width: 30%;
+  height: 50%;
+}
+.huoqu{
+  height: 40%;
+  margin-left: 10rpx;
+}
+.helo{
+  height: 450rpx;
+  margin-top: -140rpx;
+  border-radius: 30%;
+  background-color: #e87522;
+}
+.nav{
+  margin:30rpx;
+  height: 150rpx;
+  margin-left: 125rpx;
+  width: 500rpx;
+  border-radius: 80rpx;
+  position: relative;
+  top:-200rpx;
+}
+.mzi{
+  text-align: center;
+}
+
+.nav image{
+  width: 120rpx;
+  flex-grow: 4;
+  height: 120rpx;
+  border: 3px solid #ed843e;
+  box-shadow: 0rpx 0rpx 8px 13rpx #ffffff;
+  border-radius: 50%;
+  margin-top: -40rpx;
+}
+.userinfo{
+  display: flex;
+}
+.hee{
+  margin-top:-10rpx;
+  margin-left: 90rpx;
+  color:#ffffff;
+  font-size: 56rpx;
+  font-weight:bolder;
+  font-family: FZShuTi;
+}
+.gongneng{
+  width: 90%;
+  height: 160rpx;
+  justify-content: space-around;
+  margin-top: -130rpx;
+  margin-left: 40rpx;
+  background-color: beige;
+  display: flex;
+  font-size: small;
+  text-align: center;
+  border-radius: 40rpx;
+  border: 3rpx solid black;
+}
+.shixian{
+  width: 100rpx;
+  height: 100rpx;
+}
+.shixian image{
+  margin-top: 20rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+.setting{
+  margin-top: 200rpx;
+  background-color: #f6f8f7;
+  height: 50rpx;
+  color: #767676;
+}
+.jieshao{
+  width: 90%;
+  height: 300rpx;
+  margin-top: 10rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30rpx;
+  justify-content: center;
+}
+.hezi{
+  width: 80%;
+  padding: 0rpx 20rpx;
+  text-align: center;
+  border-bottom: 3rpx solid #767676;
+  position: relative;
+}

@@ -1,0 +1,239 @@
+page{
+  background-color: #f1d7c4;
+}
+.index-wrapper {
+  background-size:100% auto;
+  background-position: top; 
+  background-repeat: no-repeat;
+  height: 800rpx;
+  width: 100%;
+  align-items: center;
+  justify-content: center; 
+  object-fit: cover;
+  object-position: center;
+  z-index: -5;
+}
+
+.zhengti{
+  height: 800rpx;
+  width: 100%;
+}
+
+.kongjian{
+  height: 20rpx;
+}
+
+.list{
+  border-width: 4rpx 4rpx 0 0;
+  height: 800rpx;
+  border-radius:4%;
+  width: 95%;
+  background-color: #ffffff;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.title{
+  padding: 10rpx;
+  font-size: 50rpx;
+  margin-left: 10rpx;
+  font-weight:bolder;
+  font-family: FZShuTi;
+}
+
+.img{
+  width: 100%;
+  margin-top: 15rpx;
+  height: 400rpx;
+  border-radius: 10rpx;
+  border-top: 3rpx solid #242424;
+  border-bottom:3rpx solid #242424 ;
+}
+
+.word{
+  margin-top: 15rpx;
+  font-size: 35rpx;
+  font-family: KaiTi;
+  padding: 0 15rpx;
+}
+.dianhua{
+  display: flex;
+  margin-top: 15rpx;
+  font-size: 35rpx;
+  font-family: KaiTi;
+  padding: 0 15rpx;
+}
+.dianhua image{
+  height: 40rpx;
+  width: 40rpx;
+  padding: 0 50rpx;
+}
+
+.ziti{
+  margin-top: 40rpx;
+  padding: 25rpx 20rpx;
+  width: 95%;
+  display: flex;
+  margin-left: 8rpx;
+  font-weight: bolder;
+}
+
+.kuangjia{
+  white-space:nowrap;
+  overflow:hidden;
+  padding: 20 20rpx;
+  border-width: 4rpx 4rpx 0 0;
+  height: 400rpx;
+  background-color: #ffffff;
+  border-radius:30rpx;
+  width: 712rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-top: 0rpx;
+}
+
+.caipin{
+  width: 200rpx;
+  height: 200rpx;
+  justify-content: space-around;
+  padding:10rpx 20rpx;
+}
+
+.tupian{
+  margin-left: 15rpx;
+  width: 230rpx;
+  height: 80%;
+  border: brown 2px solid;
+  border-radius: 10rpx;
+}
+
+.dange{
+  font-size: 24rpx;
+  color: #6f7580;
+  height: 100%;
+  width: 100%;
+  justify-content:space-around;
+  margin-left: 20rpx;
+}
+
+.price{
+    color:#ff4a10;
+    font-size: 35rpx;
+    margin-left: 8rpx;
+    margin-top: 40rpx;
+    display: inline;
+    font-weight:bolder;
+}
+
+.pricename{
+  margin-top: 10rpx;
+  padding: 60 60rpx;
+  margin-left: -10rpx;
+  color: black;
+  font-size: 30rpx ;
+  font-weight: bolder;
+  flex-basis: 280rpx;
+}
+.pingfeng{
+  width: 40rpx;
+  height: 40rpx;
+}
+.fzhi{
+  margin-left: 10rpx;
+}
+.fengshu{
+  display:flex;
+  width: 100rpx;
+  margin-top: 20rpx;
+  margin-left: 40rpx;
+  font-weight: bold;
+  color: #ffaa44;
+}
+.mz{
+  display: flex;
+  width: 100%;
+  margin-left: 20rpx;
+}
+.miaoshu{
+  color: #6f7580;
+  margin-left: 8rpx;
+  margin-top: 30rpx;
+}
+.kuangjia .tuijian{
+  overflow:hidden;
+  width: 100%;
+  height: 100%;
+}
+.kuangjia .tuijian .caipin{
+  width:90%;
+  border-radius: 30rpx;
+  height: 200rpx;
+  white-space:normal;
+  color:#6f7580;
+  font-size:30rpx;
+  display: flex;
+  position: relative;
+}
+.bottom{
+  background-color:#e9bfa2;
+  display: flex;
+  justify-content: space-around;
+  position: fixed; 
+  bottom: 0rpx;
+  width: 100%;
+  height: 110rpx;
+  border:3rpx solid darkgray;
+}
+.buy{
+  margin-left:300rpx;
+  margin-top: 20rpx;
+  height: 70rpx;
+  width:150rpx ;
+  color: #ffffff;
+  font-size: small;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center; 
+  background-color: #f1b589;
+  border-radius: 40%;
+}
+.save{
+  height: 80rpx;
+  width: 80rpx;
+  margin-top: 10rpx;
+  margin-left: 0rpx;
+}
+.huanjin{
+  border-radius: 10rpx;
+}
+.jing{
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.jing image{
+  border-radius: 4rpx;
+  margin-bottom: 20rpx;
+  width:95%;
+}
+.zitao{
+  margin-top: 30rpx;
+  padding: 25rpx 20rpx;
+  width: 95%;
+  margin-left: 8rpx;
+  font-weight: bolder;
+}
+.class{
+  height: 200rpx;
+}
+.quanbu{
+  height: 200rpx;
+}
+.wenzi{
+  text-align: center;
+  color:#244aa3;
+  margin-top: 60rpx;
+}
+
+
